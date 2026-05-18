@@ -1,0 +1,49 @@
+# ──────────────────────────────────────────────────────────────────────────
+# GIGFLOW ROOT GITIGNORE - MAXIMUM SECURITY CONFIGURATION
+# ──────────────────────────────────────────────────────────────────────────
+
+# Dependency directories
+**/node_modules/
+node_modules/
+
+# Production build and transpile outputs
+**/dist/
+dist/
+**/build/
+build/
+**/out/
+
+# Environment files containing sensitive credentials (CRITICAL SECURITY)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/*.env
+
+# Logs and diagnostics
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and text editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
