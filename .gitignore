@@ -47,3 +47,5 @@ desktop.ini
 .project
 .classpath
 .settings/
+
+.vercel
